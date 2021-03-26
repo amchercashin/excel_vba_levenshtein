@@ -1,3 +1,17 @@
+# 26.03.2021 OK это глобальное обновление
+Добавил файл N-GRAMS.xlsm
+
+Он содержит все две функции подобные той, про которую написано ниже, но работающие с помощью анализа NGRAM. Для поиска и сравнения строк длиной больше 1 слова это работает лучше (а может и для одного лучше).
+
+Хэлп и описание находятся в самом файле. При желании сохраните N-GRAMS.xlsm как надстройку (.xlam) что бы эти формулы были всегда доступны.
+
+# 26.03.2021 OK thats a major NGRAM upgrade
+NGRAM code and formulas are in N-GRAMS.xlsm. Together with help and examples.
+
+This is NGRAM text analysis on VBA in Excel. It is better for text more then 1 word long.
+
+You can save as .xlam add-in and add reference to it for convenience.
+----------------------------------------------
 # VLOOKUPfuzzy
 It's an Excel add-in with User Defined Function: =VLOOKUPfuzzy
 
@@ -7,7 +21,7 @@ VLOOKUPfuzzy could be userfull for normalising lists.
 
 Use =VLOOKUPfuzzy_help() for help on parameters.
 
-----------------------------------------------
+
 # ВПРнечеткий
 Это надстройка Excel с пользовательской функцией: =ВПРнечеткий
 
