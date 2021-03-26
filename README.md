@@ -14,6 +14,9 @@ You can save as .xlam add-in and add reference to it for convenience.
 
 ----------------------------------------------
 
+
+
+
 # VLOOKUPfuzzy
 It's an Excel add-in with User Defined Function: =VLOOKUPfuzzy
 
