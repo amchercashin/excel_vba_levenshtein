@@ -11,7 +11,9 @@ NGRAM code and formulas are in N-GRAMS.xlsm. Together with help and examples.
 This is NGRAM text analysis on VBA in Excel. It is better for text more then 1 word long.
 
 You can save as .xlam add-in and add reference to it for convenience.
+
 ----------------------------------------------
+
 # VLOOKUPfuzzy
 It's an Excel add-in with User Defined Function: =VLOOKUPfuzzy
 
