@@ -1,23 +1,8 @@
-# 26.03.2021 OK это глобальное NGRAM обновление
-Добавил файл N-GRAMS.xlsm
-
-Он содержит  две функции (подобные той, про которую написано ниже), но работающие с помощью анализа NGRAM. Для поиска и сравнения строк длиной больше 1 слова это работает лучше Левенштейна (а может и для одного лучше).
-
-Хэлп и описание находятся в самом файле. При желании сохраните N-GRAMS.xlsm как надстройку (.xlam) что бы эти формулы были всегда доступны.
-
-# 26.03.2021 OK thats a major NGRAM upgrade
-NGRAM code and formulas are in N-GRAMS.xlsm. Together with help and examples.
-
-This is NGRAM text analysis on VBA in Excel. It is better for text more then 1 word long.
-
-You can save as .xlam add-in and add reference to it for convenience.
-
-----------------------------------------------
-
-----------------------------------------------
-
-----------------------------------------------
 # VLOOKUPfuzzy
+
+Upd. actually for most purposes this repo is better: https://github.com/amchercashin/excel-vba-ngram
+Levenshtein maybe suitable for 1-word string. But it usually worse the NGRAM for other.
+
 It's an Excel add-in with User Defined Function: =VLOOKUPfuzzy
 
 This function is like regular VLOOKUP, but if it finds no exact match, it uses Levenshtein distance metric to find the closest (most similar) string.
@@ -28,6 +13,10 @@ Use =VLOOKUPfuzzy_help() for help on parameters.
 
 
 # ВПРнечеткий
+
+Upd. вообще, для большинства случаев этот репо: https://github.com/amchercashin/excel-vba-ngram будет лучше.
+Ливенштейн хорошо работате со строками в 1 слово. Но во всех остальных случаях NGRAM будет лучше.
+
 Это надстройка Excel с пользовательской функцией: =ВПРнечеткий
 
 Это функция работает как стандартная ВПР, но, если она не находит точное совпадение, то возващает наиболее "похожее" значение используя "Расстояние Левенштейна" как метрику сходства.
