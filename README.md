@@ -1,7 +1,7 @@
 # VLOOKUPfuzzy
 
 Upd. actually for most purposes this repo is better: https://github.com/amchercashin/excel-vba-ngram
-Levenshtein maybe suitable for 1-word string. But it usually worse the NGRAM for other.
+Levenshtein maybe suitable for 1-word string. But it usually worse than NGRAM for other cases.
 
 It's an Excel add-in with User Defined Function: =VLOOKUPfuzzy
 
